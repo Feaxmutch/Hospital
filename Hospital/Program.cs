@@ -29,7 +29,7 @@
             };
 
             HospitalDatabase database = new(peoples);
-            database.DoWork();
+            database.Work();
         }
     }
 
@@ -43,7 +43,7 @@
             _peoples = peoples;
         }
 
-        public void DoWork()
+        public void Work()
         {
             _isWorking = true;
 
